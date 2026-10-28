@@ -1,0 +1,5 @@
+source_code('R','selection_plots.R')
+A<-capture(forest_panel);B<-capture(boruta_panel);CC<-capture(cv_panel);DD<-capture(overlap_panel)
+main<-c(move(A,5,5),move(B,111,5),move(CC,5,141),move(DD,109,141))
+export(main,'Figure_2',190,225,TRUE,300)
+dev.off()

@@ -1,0 +1,13 @@
+*
+!*/
+!*.R
+!*.py
+!*.md
+!requirements.txt
+!.gitignore
+private/
+results/
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
